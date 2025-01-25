@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# User files
+user-data/address.txt
+user-data/private-key.txt
+user-data/sepolia-testnet-address.txt
+user-data/sepolia-testnet-private-key.txt
+user-data/ethereum-mainnet-address.txt
+user-data/ethereum-mainnet-private-key.txt
+
+# Tool files
+user-data/HelloWorld/update-message-local.json
+user-data/HelloWorld/update-message-testnet.json
+user-data/HelloWorld/update-message-mainnet.json
+
+# Logs
+logs
+
+# Mostly ignore while developing:
+typechain-types
+
+# Config files
+user-config.env
+
+# NodeJS
+node_modules
+
+# Hardhat
+cache
+artifacts
+.env
